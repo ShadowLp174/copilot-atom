@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Libre Copilot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "libre-copilot-atom:toggle"
+            },
+            {
+              "label": "Fetch Completions",
+              "command": "libre-copilot-atom:full-panel-completions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

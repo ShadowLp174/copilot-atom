@@ -1,0 +1,23 @@
+{
+  "name": "libre-copilot-atom",
+  "main": "./lib/libre-copilot-atom.js",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "libre-copilot-atom:toggle",
+    "atom-workspace": "libre-copilot-atom:full-panel-completions"
+  },
+  "repository": "https://github.com/atom/libre-copilot-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views-plus": "^3.0.4",
+    "node-fetch": "^2.6.7"
+  },
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ]
+}

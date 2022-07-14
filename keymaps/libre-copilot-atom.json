@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "libre-copilot-atom:toggle",
+    "ctrl-enter": "libre-copilot-atom:full-panel-completions"
+  }
+}
